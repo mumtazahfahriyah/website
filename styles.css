@@ -1,0 +1,206 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #85bfd1;
+    color: #080202;
+    padding: 0.5rem ;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: courier;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwE4kzyTs0mqO1Pp7ysQ1WHP5z3XK0SJE_ch788vkONK8R_J1cxChz6Zagz2Q3P7-C1g&usqp=CAU') no-repeat center center/cover;
+    color: #010608;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.responsive-image {
+    width: 10%; /* Mengatur lebar gambar sesuai dengan lebar elemen induknya */
+    height: 20%; /* Mengatur tinggi gambar secara proporsional */
+    position: absolute;
+    top: 0; /* Menempatkan gambar di pojok atas */
+    right: 0; /* Menempatkan gambar di pojok kanan */
+    float: right; /* Mengatur gambar untuk mengapung di kiri */
+    margin-left: 10px; /* Memberikan jarak antara gambar */
+    
+}
+
+.hero-content h3 {
+    font-size: 5.5rem;
+    margin-bottom: 0.1rem;
+    font-family: 'comic sans ms';
+    color: #000000;
+}
+
+.hero-content h1 {
+    font-size: 5.5rem;
+    margin-bottom: 0.1rem;
+    font-family: 'comic sans ms';
+}
+
+.hero-content p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'comic sans ms';
+}
+
+.hero-content .btn {
+    background-color: #f4b400;
+    color: #333;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#features {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Untuk memastikan elemen akan wrap saat lebar layar kecil */
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    flex: 1; /* Membuat elemen fleksibel */
+    margin: 10px; /* Margin kecil di sekitar elemen */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-indent: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.kolom {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-indent: 40px;
+}
+
+img {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-indent: 40px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+a.tbl-biru {
+    background: #26cce9;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #26cce9;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
